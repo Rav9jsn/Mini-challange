@@ -1,0 +1,18 @@
+header {
+  background-color: aqua;
+  text-align: center;
+  font-weight: 500;
+  font-size: larger;
+}
+.buttons {
+  text-align: center;
+  padding-top: 50px;
+}
+.config-number {
+  text-align: center;
+  padding-top: 50px;
+}
+.reset {
+  padding: 100px;
+  text-align: center;
+}

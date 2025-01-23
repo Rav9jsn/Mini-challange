@@ -1,0 +1,36 @@
+.entirecontainer {
+  border: 2px solid rgb(239, 238, 238);
+  font-size: larger;
+  font-weight: 600;
+  height: 10vh;
+  width: 100vw;
+  margin: auto;
+  padding: 15px;
+  text-align: start;
+  padding-top: 28px;
+  /* box-shadow: 10px 11px 3px rgb(205, 34, 63); */
+}
+header {
+  border-bottom: 4px solid rgb(221, 213, 229);
+  text-align: center;
+  font-size: larger;
+  font-weight: 600;
+}
+.container {
+  background-color: aliceblue;
+  color: black;
+  border: 2px solid rgb(239, 238, 238);
+  font-size: larger;
+  font-weight: 600;
+  height: 10vh;
+  width: 100vw;
+  margin: auto;
+  padding: 15px;
+  padding-top: 28px;
+  text-align: start;
+}
+.Darkmode {
+  background-color: black;
+  color: aliceblue;
+  border: 1px solid blue;
+}

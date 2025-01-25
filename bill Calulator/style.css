@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Open Sans", serif;
+}
+header {
+  text-align: center;
+  background-color: white;
+  height: 8vh;
+  padding: 16px 0px;
+  font-size: 20px;
+  font-weight: 600;
+  border: 1px solid black;
+}
+.container {
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  width: 100vw;
+  gap: 1rem;
+}
+.leftbox {
+  border-radius: 15px;
+  height: 50vh;
+  width: 25vw;
+  display: flex;
+  color: rgb(41, 41, 59);
+  flex-direction: column;
+  justify-content: space-between;
+  /* gap: 1rem; */
+  padding-bottom: 0px;
+  background-color: rgb(255, 255, 255);
+}
+.bill {
+  position: relative;
+  top: -190px;
+  left: 46px;
+  background-color: antiquewhite;
+  color: rgb(41, 41, 59);
+  font-weight: 600;
+  font-size: 20px;
+}
+.leftbox .tipInput {
+  display: grid;
+  background-color: rgb(225, 234, 234);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 5px;
+}
+
+.leftbox .tipInput .tipnum {
+  background-color: rgba(191, 64, 191, 0.87);
+  display: grid;
+  height: 30px;
+  justify-items: center;
+  align-items: center;
+  border-radius: 3px;
+}
+.SelectTip,
+.noofpeople {
+  font-size: large;
+  font-weight: 600;
+  color: rgb(42, 37, 116);
+}
+.customTip,
+.NoOfPeople,
+.amount {
+  padding-left: 10px;
+  font-size: medium;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: rgb(228, 208, 183);
+}
+.amount {
+  position: absolute;
+}
+
+.generatebill {
+  background-color: rgb(191, 64, 191);
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: antiquewhite;
+  font-size: medium;
+  font-weight: 500;
+}
+
+.rightbox {
+  background-color: rgba(0, 0, 255, 0.829);
+  border-radius: 10px;
+  height: 50vh;
+  width: 25vw;
+  display: flex;
+  color: rgb(41, 41, 59);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.allvalue {
+  border-radius: 10px;
+  display: flex;
+  height: 40vh;
+  flex-direction: column;
+  padding: 25px;
+  justify-content: space-between;
+}
+.allvalue .tipamount {
+  display: flex;
+  justify-content: space-between;
+}
+.allvalue .tipamount p {
+  font-size: medium;
+  font-weight: 600;
+  color: white;
+}
+.restButoon {
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 5px;
+  color: blue;
+  font-size: medium;
+  font-weight: 500;
+  border-radius: 10px;
+  margin: 0px 20px 20px 20px;
+}

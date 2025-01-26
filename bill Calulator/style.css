@@ -69,8 +69,8 @@ header {
   color: rgb(42, 37, 116);
 }
 .customTip,
-.NoOfPeople,
-.amount {
+.NoOfPeople {
+  outline: none;
   padding-left: 10px;
   font-size: medium;
   height: 40px;
@@ -79,7 +79,29 @@ header {
   background-color: rgb(228, 208, 183);
 }
 .amount {
-  position: absolute;
+  width: 357px;
+  margin-left: 25px;
+  outline: none;
+  padding-left: 20px;
+  font-size: medium;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid white;
+  background-color: rgb(228, 208, 183);
+}
+.rupeeSign {
+  height: 40px;
+  padding: 5px;
+  width: 27px;
+  position: relative;
+  font-size: medium;
+  font-weight: 600;
+  color: blue;
+  top: 45px;
+  left: 10px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  background-color: rgb(228, 208, 183);
 }
 
 .generatebill {

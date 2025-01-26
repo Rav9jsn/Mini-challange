@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400..700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Oswald", serif;
+}
+header {
+  text-align: center;
+  background-color: white;
+  height: 8vh;
+  padding: 16px 0px;
+  font-size: 20px;
+  font-weight: 600;
+  border: 1px solid black;
+  box-shadow: 1px 0px 10px rgb(30, 29, 29);
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  height: 90vh;
+}
+.genrateMeme {
+  color: blue;
+  font-weight: 600;
+  width: 10rem;
+  height: 28px;
+  text-align: center;
+  font-size: large;
+  border-left: 3px solid black;
+  border-right: 3px solid black;
+  padding: auto 10px;
+}
+
+.genrateMeme:hover {
+  cursor: context-menu;
+  width: 280px;
+  letter-spacing: 3px;
+  transition: all 0.3s linear 0s;
+  border-left: 5px solid black;
+  border-right: 5px solid black;
+}
+.memeBox {
+  height: 75vh;
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  align-items: center;
+  box-shadow: 2px 3px 10px rgb(30, 29, 29);
+  padding: 40px;
+}
+.memeBox .memeTitle {
+  font-size: 20px;
+  font-weight: 700;
+}
+.memeBox .memeImage {
+  width: 16rem;
+  height: 18rem;
+}
